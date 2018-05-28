@@ -212,9 +212,23 @@ p {
     font-weight:  700;
     text-transform: capitalize;
 }
+.speciality .hr{
 
+}
 .speciality h2 {
     margin: 0;
+    margin-bottom: 20px;
+}
+.video {
+    height: 395px;
+    width: auto;
+}
+.speciality hr {
+    position:  relative;
+    height: 2px;
+    width: 100%;
+    background: #ededed;
+    height: 2px;
 }
 
 .speciality ul {
@@ -222,19 +236,27 @@ p {
     margin:  0;
     padding:  0;
 }
-
-.speciality li:before {
-    content: "• ";
-}
-
 .speciality li {
-    padding-left:  16px;
-    text-indent: 0;
-    padding-left: 1em;
-    text-indent: -.7em;
+padding: 20px 0;
 }
 
 .speciality h3 {
     margin:  0;
     padding: 0 0 10px;
+}
+
+.speciality li:before {
+  content: "";
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  background-color: #1a8bb3;
+  margin-right: .5rem;
+  float: left;
+  position: relative;
+  top: 7px;
+}
+.speciality-detail {
+    padding: 0 30px;
 }
