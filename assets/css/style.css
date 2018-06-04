@@ -260,3 +260,12 @@ padding: 20px 0;
 .speciality-detail {
     padding: 0 30px;
 }
+/*  ............... */
+.detail-slide {
+    text-align:  center;
+    text-transform:  capitalize;
+    margin: 80px 0 0;
+}
+.detail-slide h2 {
+    margin: 0 0 35px;
+}
