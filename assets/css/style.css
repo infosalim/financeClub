@@ -82,16 +82,17 @@ h5{font-size: 14px;}
     position: relative;
     overflow: hidden;
     color: #fff;
-    width: 55%;
+    width: 100%;
     margin: -1px 0;
     margin-left: auto;
+    z-index: -1;
 }
 .number-area::after{
   content: '';
   position: absolute;
   top: 0;
-  left:0;
-  width: 100%;
+  right: 0;
+  width: 55%;
   height: 100%;
   background: #1a8bb3;
   transform-origin: 0 100%;
@@ -100,12 +101,13 @@ h5{font-size: 14px;}
 }
 
 .number-area h4 {
-    margin: 0 -410px;
+    margin: 0;
     padding-bottom: 18px;
     font-weight: 700;
 }
 .number-area .fa-phone {
     margin-right: 10px;
+    color: #fff;
 }
 /*
 .....................
