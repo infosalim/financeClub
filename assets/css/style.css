@@ -261,10 +261,49 @@ p {
                       skill bar area
 .....................
 */
+.skill-bar-area{
+    margin-top: -40px;
+}
+.skills{
+    height: 20px;
+    width: 100%;
+    margin:50px 0;
+}
+.skill-name{
+    position: relative;
+    float: left;
+    width: 80%;
+}
+.skill-percent{
+    float: right;
+}
+.skill-bar{
+    height: 12px;
+    background: #f4f4f4;
+    width: 100%;
+    position: relative;
+}
+.skill-name h5 {
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 15px 0;
+}
 
-
-
-
+.skill-percent {
+    margin-top: 30px;
+    background: #f4f4f4;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.skillbar{
+    background-color:#1a8bb3;
+    width:0px;
+    height: 100%;
+  }
 
 
 /*
@@ -677,9 +716,10 @@ section.copyright {
 }
 
 .copyright hr {
-    padding: 0;
+    padding: 2px;
     margin: 0;
-    background:  #9e9e9e;
+    background: #333333;
+    border: none;
 }
 
 section.copyright h6 {
