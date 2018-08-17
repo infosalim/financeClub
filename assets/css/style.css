@@ -4,12 +4,8 @@
 .....................
 */
 
-
-
-
-
-body{
-  font-size: 14px;
+body {
+    font-size: 14px;
 }
 
 /*
@@ -17,28 +13,48 @@ body{
                     background images
 .....................
 */
-.slider-bg-1{background-image: url(../image/slider-1.jpg);}
+
+.slider-bg-1 {
+    background-image: url(../image/slider-1.jpg);
+}
+
 /*
 .....................
                       heading style
 .....................
 */
-h1{font-size: 60px;}
-h2{font-size: 28px;}
-h3{font-size: 22px;}
-h4{font-size: 16px;}
-h5{font-size: 14px;}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
 
 /*
 .....................
                       header top area
 .....................
 */
+
 /* topper area */
 
 .topper-area {
-    background:  #1a8bb3;
-    color:  #fff;
+    background: #1a8bb3;
+    color: #fff;
     height: 60px;
     padding: 20px 0;
 }
@@ -49,17 +65,17 @@ h5{font-size: 14px;}
 }
 
 .topper-area .fa-chevron-down {
-    color:  #fff;
+    color: #fff;
     padding-top: 7px;
-    font-size:20px;
+    font-size: 20px;
 }
 
 /*............... logo area */
 
 .logo-area {
-    height:  150px;
+    height: 150px;
     padding: 40px 0;
-    position:  relative;
+    position: relative;
 }
 
 .logo {
@@ -67,8 +83,8 @@ h5{font-size: 14px;}
 }
 
 .location {
-    position:  relative;
-    text-align:  center;
+    position: relative;
+    text-align: center;
 }
 
 .locaion-time-img {
@@ -87,62 +103,68 @@ h5{font-size: 14px;}
     margin-left: auto;
     z-index: -1;
 }
-.number-area::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 55%;
-  height: 100%;
-  background: #1a8bb3;
-  transform-origin: 0 100%;
-  transform: skew(-45deg);
-  z-index: -1;
+
+.number-area::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 55%;
+    height: 100%;
+    background: #1a8bb3;
+    transform-origin: 0 100%;
+    transform: skew(-45deg);
+    z-index: -1;
 }
 
 .number-area h4 {
     margin: 0;
-    padding-bottom: 18px;
+    padding: 18px;
     font-weight: 700;
 }
+
 .number-area .fa-phone {
     margin-right: 10px;
     color: #fff;
 }
+
 /*
 .....................
                       main menu area
 .....................
 */
+
 .mainmenu {
-  font-size:  14px;
-  font-weight: 700;
-  text-align:  left;
-  text-transform:  uppercase;
-  position:  absolute;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    position: absolute;
 }
 
 .mainmenu ul {
-    margin:  0;
-    padding:  0;
-    list-style:  none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 .mainmenu li {
-    display:  inline-block;
-    position:  relative;
+    display: inline-block;
+    position: relative;
 }
 
 .mainmenu li a {
-  padding: 0 20px;
-  display: block;
-  color: #fff;
-  margin-top: 40px;
+    padding: 0 20px;
+    display: block;
+    color: #fff;
+    margin-top: 40px;
 }
+
 .mainmenu .fa-search {
-    color:  #fff;
+    color: #fff;
     margin: 0 15px;
 }
+
 /*
 .....................
                       slider area
@@ -151,44 +173,51 @@ h5{font-size: 14px;}
 
 .slider-item {
     height: 790px;
-    background-size:  cover;
-    background-position:  center;
-    background-color:  #ddd;
-    color:  #fff;
-    font-size:  24px;
-    text-align:  center;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
 }
+
 .slider-item-table {
-    display:  table;
-    height:  100%;
-    width:  100%;
+    display: table;
+    height: 100%;
+    width: 100%;
 }
 
 .slider-item-tablecell {
     display: table-cell;
-    vertical-align:  middle;
+    vertical-align: middle;
 }
 
 
 .slider-item-tablecell h1 {
-    text-transform:  uppercase;
+    text-transform: uppercase;
     font-size: 50px;
     margin: 0;
     padding: 20px 0;
 }
 
 .slider-item-tablecell h2 {
-    margin:  0;
+    margin: 0;
     padding: 20px 0;
     margin-bottom: 50px;
 }
 
 .slide-btn {
-    font-size:  14px;
-    color:  #fff;
-    text-transform:  uppercase;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
     background: rgba(26, 139, 179, .3);
     padding: 10px 17px;
+}
+.contact-btn{
+    background: rgba(26, 139, 179, 1);
+}
+.slide-btn:hover{
+    background: rgba(26, 139, 179, 1);
 }
 
 
@@ -198,19 +227,20 @@ h5{font-size: 14px;}
 .....................
 */
 
-
 .finance-area {
-    margin:  0;
-    padding:  100px 0 0;
+    margin: 0;
+    padding: 100px 0 0;
 }
+
 .finance-area h2 {
     font-weight: 700;
     text-transform: capitalize;
 }
 
 p {
-  color: #9e9e9e;
+    color: #9e9e9e;
 }
+
 /*
 .....................
                       about finance
@@ -218,71 +248,82 @@ p {
 */
 
 .about-finance img {
-  height:  262px;
-  width:  auto;
+    height: 262px;
+    width: auto;
 }
 
 .about-finance h3 {
-    color:  #000;
+    color: #000;
     margin: 0;
     padding: 26px 0 10px;
     text-transform: capitalize;
 }
-.about-finance hr{
-  background: #ddd;
-  height: 2px;
-  width: 100%;
-  margin: 24px 0;
+
+.about-finance hr {
+    background: #ddd;
+    height: 2px;
+    width: 100%;
+    margin: 24px 0;
 }
+
 /*
 .....................
                       mission vission and skill
 .....................
 */
+
 .mision-vision-skill h2 {
-    margin:  0;
+    margin: 0;
     padding: 0 0 25px;
 }
-.no-padding{
-  padding: 0;
+
+.no-padding {
+    padding: 0;
 }
 
 .mision-vision-skill p {
-    margin:  0;
+    margin: 0;
     padding: 0 0 10px;
 }
 
 .mision-vision-skill h3 {
-    font-weight:  700;
+    font-weight: 700;
     text-transform: capitalize;
 }
+
 /*
 .....................
                       skill bar area
 .....................
 */
-.skill-bar-area{
+
+.skill-bar-area {
     margin-top: -40px;
 }
-.skills{
+
+.skills {
     height: 20px;
     width: 100%;
-    margin:50px 0;
+    margin: 50px 0;
 }
-.skill-name{
+
+.skill-name {
     position: relative;
     float: left;
     width: 80%;
 }
-.skill-percent{
+
+.skill-percent {
     float: right;
 }
-.skill-bar{
+
+.skill-bar {
     height: 12px;
     background: #f4f4f4;
     width: 100%;
     position: relative;
 }
+
 .skill-name h5 {
     font-size: 16px;
     color: #333;
@@ -299,11 +340,12 @@ p {
     font-size: 16px;
     font-weight: 600;
 }
-.skillbar{
-    background-color:#1a8bb3;
-    width:0px;
+
+.skillbar {
+    background-color: #1a8bb3;
+    width: 0px;
     height: 100%;
-  }
+}
 
 
 /*
@@ -311,19 +353,21 @@ p {
                       speciality
 .....................
 */
-.speciality .hr{
 
-}
+.speciality .hr {}
+
 .speciality h2 {
     margin: 0;
     margin-bottom: 20px;
 }
+
 .video {
     height: 395px;
     width: auto;
 }
+
 .speciality hr {
-    position:  relative;
+    position: relative;
     height: 2px;
     width: 100%;
     background: #ededed;
@@ -331,79 +375,91 @@ p {
 }
 
 .speciality ul {
-    list-style:  none;
-    margin:  0;
-    padding:  0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+
 .speciality li {
-padding: 20px 0;
+    padding: 20px 0;
 }
 
 .speciality h3 {
-    margin:  0;
+    margin: 0;
     padding: 0 0 10px;
 }
 
 .speciality li:before {
-  content: "";
-  display: inline-block;
-  height: 12px;
-  width: 12px;
-  border-radius: 6px;
-  background-color: #1a8bb3;
-  margin-right: .5rem;
-  float: left;
-  position: relative;
-  top: 7px;
+    content: "";
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 6px;
+    background-color: #1a8bb3;
+    margin-right: .5rem;
+    float: left;
+    position: relative;
+    top: 7px;
 }
+
 .speciality-detail {
     padding: 0 30px;
 }
+
 /*
 .....................
                       detail slide
 .....................
 */
+
 .detail-slide {
-    text-align:  center;
-    text-transform:  capitalize;
+    text-align: center;
+    text-transform: capitalize;
     margin: 80px 0 0;
 }
+
 .detail-slide h2 {
     margin: 0 0 35px;
     font-weight: 700;
 }
+
 /*
 .....................
                       advisor area
 .....................
 */
+
 .advisor {
-    position:  relative;
+    position: relative;
 }
 
 .advisor img {
     width: 100%;
-    position:  relative;
+    position: relative;
 }
+
 .contact {
     display: inline-block;
     width: 100%;
-    background:  #1a8bb3;
+    background: #1a8bb3;
     color: #fff;
     position: absolute;
     bottom: 32px;
 }
+
 .contact h3 {
-  margin: 0;
-  display: inline-block;
-  text-transform: capitalize;
-  position: absolute;
-  font-size: 18px;
-  top: 16px;
-  left: 145px;
+    margin: 0;
+    display: inline-block;
+    text-transform: capitalize;
+    position: absolute;
+    font-size: 18px;
+    top: 16px;
+    left: 145px;
 }
-.contact .fa-facebook-f, .contact .fa-twitter, .contact .fa-linkedin-in {
+
+.contact .fa-facebook-f,
+.contact .fa-twitter,
+.contact .fa-linkedin-in {
     width: 34px;
     height: 34px;
     border: 1px solid #fff;
@@ -415,18 +471,18 @@ padding: 20px 0;
 
 .position h4 {
     margin: 15px 0;
-    text-transform:  capitalize;
-    color:  #000;
-    font-weight:  700;
-    text-align:  center;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
 }
 
 .position:after {
-    height:  10px;
-    width:  100%;
-    background:  #1a8bb3;
-    content:  "";
-    position:  absolute;
+    height: 10px;
+    width: 100%;
+    background: #1a8bb3;
+    content: "";
+    position: absolute;
 }
 
 /*
@@ -436,18 +492,20 @@ padding: 20px 0;
 */
 
 .amount-area {
-    width:  100%;
-    height:  272px;
+    width: 100%;
+    height: 272px;
     background-image: url(../image/background-images/amount-bg.jpg);
 }
+
 .amount-area h1 {
-    margin:  0;
-    color:  #fff;
+    margin: 0;
+    color: #fff;
     padding-top: 70px;
 }
+
 .amount-area h2 {
-    color:  #1a8bb3;
-    margin:  0;
+    color: #1a8bb3;
+    margin: 0;
     margin-top: 40px;
 }
 
@@ -456,61 +514,74 @@ padding: 20px 0;
                       work section
 .....................
 */
+
 .single-work {
-    margin-top:  50px;
+    margin-top: 50px;
     background: #f4f4f4;
     position: relative;
     padding: 10px;
 }
 
-.single-work img {margin-top: 10px;}
+.single-work img {
+    margin-top: 10px;
+}
 
 .single-work h4 {
-    color:  #000;
+    color: #000;
     font-weight: 600;
-    text-transform:  capitalize;
-    margin:  0;
+    text-transform: capitalize;
+    margin: 0;
     padding: 16px 0;
 }
+
 /*
 .....................
                       news area
 .....................
 */
+
 .news-items {
-    margin-top:  40px;
+    margin-top: 40px;
 }
+
 .news-items img {
-  position: relative;
+    position: relative;
 }
+
 .like {
-  position: absolute;
-  height: 62px;
-  width: 82px;
-  background: #1a8bb3;
-  bottom: 35px;
+    position: absolute;
+    height: 62px;
+    width: 82px;
+    background: #1a8bb3;
+    bottom: 35px;
 }
-.like .fa-comment, .like .fa-heart {
-    display:  inline-block;
-    color:  #fff;
-    font-size:  28px;
+
+.like .fa-comment,
+.like .fa-heart {
+    display: inline-block;
+    color: #fff;
+    font-size: 28px;
     margin: 0 7px;
     margin-top: 16px;
 }
+
 .like h4 {
-    display:  inline;
+    display: inline;
     margin: 0;
     color: #fff;
     font-size: 27px;
 }
+
 .comment {
     left: 15px;
 }
+
 .love {
     right: 15px;
 }
-.text-left{
-  position: absolute;
+
+.text-left {
+    position: absolute;
 }
 
 .news-items h5 {
@@ -519,24 +590,25 @@ padding: 20px 0;
 }
 
 .news-items h5 span {
-    text-transform:  capitalize;
+    text-transform: capitalize;
     color: #1a8bb3;
 }
 
 .news-item-content h3 {
-    margin:  18px 0;
-    text-transform:  capitalize;
+    margin: 18px 0;
+    text-transform: capitalize;
     font-weight: 600;
 }
 
 .news-item-content a {
-    text-transform:  capitalize;
+    text-transform: capitalize;
     font-weight: 600;
 }
-.news-item-content hr{
-  height: 3px;
-  width: 100%;
-  background: #f4f4f4;
+
+.news-item-content hr {
+    height: 3px;
+    width: 100%;
+    background: #f4f4f4;
 }
 
 
@@ -549,12 +621,14 @@ padding: 20px 0;
 
 .feedback-area h2 {
     margin-bottom: 50px;
-    margin:  0;
+    margin: 0;
     margin-bottom: 50px;
 }
+
 .feedback-detail {
     margin-top: 80px;
 }
+
 .feedback-detail .fa-quote-left {
     color: #1a8bb3;
     margin: 10px 0;
@@ -563,7 +637,7 @@ padding: 20px 0;
 
 .left-10 {
     left: 30px;
-    position:  absolute;
+    position: absolute;
 }
 
 .feedback-detail p {
@@ -571,47 +645,54 @@ padding: 20px 0;
 }
 
 .feedback-detail h3 {
-    margin:  9px 0;
-    text-transform:  capitalize;
+    margin: 9px 0;
+    text-transform: capitalize;
     font-weight: 600;
 }
+
 /*
 .....................
                       all clients
 .....................
 */
+
 .all-clients {
-    text-align:  center;
+    text-align: center;
 }
+
 /*
 .....................
                       footer area
 .....................
 */
+
 .footer-area {
     height: 590px;
     background: #272727;
     padding: 90px;
     color: #9e9e9e;
 }
+
 .footer-logo {
-  height: auto;
-  width: 230px;
-  margin-bottom: 30px;
+    height: auto;
+    width: 230px;
+    margin-bottom: 30px;
 }
+
 .footer-area h3 {
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 40px;
 }
+
 .footer-area h3::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 64px;
-  background: #1a8bb3;
-  left: 15px;
-  top: 55px;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 64px;
+    background: #1a8bb3;
+    left: 15px;
+    top: 55px;
 }
 
 /*
@@ -624,21 +705,22 @@ padding: 20px 0;
     text-align: left;
     text-transform: capitalize;
 }
+
 .footer-nav ul {
-    margin:  0;
+    margin: 0;
     padding: 0;
     list-style: none;
 }
 
 .footer-nav li {
     display: block;
-    position:  relative;
+    position: relative;
 }
 
 .footer-nav li a {
-  color: #9e9e9e;
-  display:  block;
-  padding: 3px 0;
+    color: #9e9e9e;
+    display: block;
+    padding: 3px 0;
 }
 
 
@@ -649,28 +731,30 @@ padding: 20px 0;
 */
 
 .footer-area h4 {
-  text-transform:  capitalize;
-  padding: 10px 0;
-  font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px 0;
+    font-weight: 700;
 }
+
 .footer-area h4 a {
-  color: #9e9e9e;
+    color: #9e9e9e;
 }
-.footer-area  .fa-arrow-right {
-  background: #1a8bb3;
-  color: #fff;
-  height: 32px;
-  width: 40px;
-  margin: -8px 14px;
-  padding: 0 9px;
-  display: none;
-  position: absolute;
-  right: 50px;
+
+.footer-area .fa-arrow-right {
+    background: #1a8bb3;
+    color: #fff;
+    height: 32px;
+    width: 40px;
+    margin: -8px 14px;
+    padding: 0 9px;
+    display: none;
+    position: absolute;
+    right: 50px;
 }
 
 .footer-area h5 {
     margin: 22px 0;
-    text-transform:  capitalize;
+    text-transform: capitalize;
 }
 
 
@@ -680,39 +764,47 @@ padding: 20px 0;
 .....................
 */
 
-.fa-map-marker-alt, .fa-phone, .fa-envelope{
-  color: #1a8bb3;
-  margin-right: 18px;
+.fa-map-marker-alt,
+.fa-phone,
+.fa-envelope {
+    color: #1a8bb3;
+    margin-right: 18px;
 }
 
-.social-single-icons{
-  height: 40px;
-  width: 40px;
-  background: #2b2b2b;
-  position: relative;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 20px 5px 0 0;
+.social-single-icons {
+    height: 40px;
+    width: 40px;
+    background: #2b2b2b;
+    position: relative;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 20px 5px 0 0;
 }
 
-.social-single-icons .fa-facebook-f, .social-single-icons .fa-twitter, .social-single-icons .fa-linkedin-in, .social-single-icons .fa-google-plus-g{
+.social-single-icons .fa-facebook-f,
+.social-single-icons .fa-twitter,
+.social-single-icons .fa-linkedin-in,
+.social-single-icons .fa-google-plus-g {
     position: absolute;
     top: 13px;
     left: 36%;
 }
-.social-single-icons a{
-  color: #9e9e9e;
+
+.social-single-icons a {
+    color: #9e9e9e;
 }
+
 /*
 .....................
                       copyright section
 .....................
 */
+
 section.copyright {
-  background: #272727;
-  height: 100px;
-  position: relative;
-  color: #9e9e9e
+    background: #272727;
+    height: 100px;
+    position: relative;
+    color: #9e9e9e
 }
 
 .copyright hr {
@@ -723,15 +815,15 @@ section.copyright {
 }
 
 section.copyright h6 {
-    position:  absolute;
+    position: absolute;
     top: 59%;
-    margin:  0;
+    margin: 0;
     padding: 40px 0;
 }
 
 section.copyright h6 span {
-    color:  #1a8bb3;
-    text-transform:  capitalize;
+    color: #1a8bb3;
+    text-transform: capitalize;
     font-weight: 700;
 }
 
@@ -742,40 +834,50 @@ section.copyright h6 span {
 .....................
 */
 
-.mainmenu li a:hover, .footer-nav li a:hover{
-  text-decoration: none;
-  color: #1a8bb3;
-  -webkit-transition: ease-Out .3s;
-  -o-transition: ease-Out .3s;
-  transition: ease-Out .3s;
+.mainmenu li a:hover,
+.footer-nav li a:hover {
+    text-decoration: none;
+    color: #1a8bb3;
+    -webkit-transition: ease-Out .3s;
+    -o-transition: ease-Out .3s;
+    transition: ease-Out .3s;
 }
-.slide-btn:hover{
-  background: rgba(26, 139, 179, 1);
-  text-decoration: none;
-  color: #fff;
-  transition: ease-in .2s;
+
+.slide-btn:hover {
+    background: rgba(26, 139, 179, 1);
+    text-decoration: none;
+    color: #fff;
+    transition: ease-in .2s;
 }
-.footer-area h4:hover{
-  background: #2b2b2b;
-  -webkit-transition: ease-Out .3s;
-  -o-transition: ease-Out .3s;
-  transition: ease-Out .3s;
-  margin-left: 15px;
+
+.footer-area h4:hover {
+    background: #2b2b2b;
+    -webkit-transition: ease-Out .3s;
+    -o-transition: ease-Out .3s;
+    transition: ease-Out .3s;
+    margin-left: 15px;
 }
-.footer-area h4 a:hover{
-  text-decoration: none;
+
+.footer-area h4 a:hover {
+    text-decoration: none;
 }
-.footer-area h4:hover .fa-arrow-right{
-  display: inline-block;
-  right: 0;
-  transition: .3s;
+
+.footer-area h4:hover .fa-arrow-right {
+    display: inline-block;
+    right: 0;
+    transition: .3s;
 }
-.social-single-icons:hover{
-  background: #1a8bb3;
-  -webkit-transition: ease-Out .3s;
-  -o-transition: ease-Out .3s;
-  transition: ease-Out .3s;
+
+.social-single-icons:hover {
+    background: #1a8bb3;
+    -webkit-transition: ease-Out .3s;
+    -o-transition: ease-Out .3s;
+    transition: ease-Out .3s;
 }
-.social-single-icons:hover .fa-facebook-f, .social-single-icons:hover .fa-twitter, .social-single-icons:hover .fa-linkedin-in, .social-single-icons:hover .fa-google-plus-g{
-  color: #fff;
+
+.social-single-icons:hover .fa-facebook-f,
+.social-single-icons:hover .fa-twitter,
+.social-single-icons:hover .fa-linkedin-in,
+.social-single-icons:hover .fa-google-plus-g {
+    color: #fff;
 }
